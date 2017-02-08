@@ -1,0 +1,26 @@
+html, body {
+  height: 100%; }
+
+ul {
+  list-style: none; }
+
+li {
+  display: inline-block; }
+
+li a {
+  text-decoration: none; }
+
+footer {
+  width: 100%; }
+
+figure {
+  text-align: center; }
+
+p {
+  text-align: center; }
+
+#projects a {
+  display: inline-block;
+  margin-top: 5%; }
+
+/*# sourceMappingURL=styles.css.map */
