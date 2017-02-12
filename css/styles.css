@@ -2,7 +2,8 @@ html, body {
   height: 100%; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  padding: 0%; }
 
 li {
   display: inline-block;
@@ -17,6 +18,9 @@ a:hover {
 nav {
   text-align: center; }
 
+h2 {
+  margin-left: 1%; }
+
 footer {
   width: 100%; }
 
@@ -30,9 +34,15 @@ p {
 #projects {
   background: whitesmoke; }
 
+#projects figure {
+  margin: 16px 0px; }
+
+#row1, #row2 {
+  text-align: center; }
+
 #projects a {
-  display: block;
-  margin-top: 5%; }
+  display: inline-block;
+  margin: 2.5% 2%; }
 
 nav img {
   border-radius: 85%; }
