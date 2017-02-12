@@ -19,8 +19,14 @@ figure {
 p {
   text-align: center; }
 
+#projects {
+  background: whitesmoke; }
+
 #projects a {
-  display: inline-block;
+  display: block;
   margin-top: 5%; }
+
+nav img {
+  border-radius: 85%; }
 
 /*# sourceMappingURL=styles.css.map */
