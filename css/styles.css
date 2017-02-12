@@ -5,10 +5,17 @@ ul {
   list-style: none; }
 
 li {
-  display: inline-block; }
+  display: inline-block;
+  padding: 1%; }
 
-li a {
+a {
   text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+nav {
+  text-align: center; }
 
 footer {
   width: 100%; }
@@ -17,7 +24,8 @@ figure {
   text-align: center; }
 
 p {
-  text-align: center; }
+  text-align: center;
+  font-family: helvetica, verdana, times new roman; }
 
 #projects {
   background: whitesmoke; }
@@ -28,5 +36,19 @@ p {
 
 nav img {
   border-radius: 85%; }
+
+footer #links {
+  text-align: center;
+  margin-bottom: 3%; }
+
+footer a {
+  margin: 0% 2%; }
+
+@media(min-width: 600px) {
+  #row1 a, #row2 a {
+    display: inline-block; }
+
+  #row1 figure, #row2 figure {
+    margin: 10px; } }
 
 /*# sourceMappingURL=styles.css.map */
