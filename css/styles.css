@@ -1,6 +1,10 @@
 html, body {
   height: 100%; }
 
+header {
+  padding-top: 1%;
+  background: #ebebeb; }
+
 ul {
   list-style: none;
   padding: 0%; }
@@ -28,11 +32,13 @@ figure {
   text-align: center; }
 
 p {
-  text-align: center;
-  font-family: helvetica, verdana, times new roman; }
+  font-family: helvetica, verdana, times new roman;
+  width: 65%;
+  margin: auto; }
 
 #projects {
-  background: whitesmoke; }
+  background: #ebebeb;
+  padding-bottom: 1%; }
 
 #projects figure {
   margin: 16px 0px; }
@@ -41,7 +47,7 @@ p {
   text-align: center; }
 
 #projects a {
-  display: inline-block;
+  display: block;
   margin: 2.5% 2%; }
 
 nav img {
@@ -54,11 +60,8 @@ footer #links {
 footer a {
   margin: 0% 2%; }
 
-@media(min-width: 600px) {
+@media(min-width: 451px) {
   #row1 a, #row2 a {
-    display: inline-block; }
-
-  #row1 figure, #row2 figure {
-    margin: 10px; } }
+    display: inline-block; } }
 
 /*# sourceMappingURL=styles.css.map */
