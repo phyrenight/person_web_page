@@ -1,9 +1,17 @@
 html, body {
-  height: 100%; }
+  height: 100%;
+  background: #ebebeb; }
 
 header {
   padding-top: 1%;
-  background: #ebebeb; }
+  background: rgba(255, 255, 255, 0.5); }
+
+#myName, #jobTitles {
+  display: inline; }
+
+#jobTitles {
+  float: right;
+  margin: 0%; }
 
 ul {
   list-style: none;
@@ -37,7 +45,7 @@ p {
   margin: auto; }
 
 #projects {
-  background: #ebebeb;
+  background: rgba(255, 255, 255, 0.5);
   padding-bottom: 1%; }
 
 #projects figure {
